@@ -3,6 +3,7 @@ import { View, StyleSheet, Text } from 'react-native';
 
 import Title from '../components/CustomText/Title';
 import Label from '../components/CustomText/Label';
+import Contador from '../components/Contador';
 
 export default class Home extends Component {
    state = {}
@@ -11,7 +12,8 @@ export default class Home extends Component {
          <View style={styles.container}>
             <Title text="Bienvenido, template de React-native!" />
             <Label text={'Para empezar, edita index.ios.js o index.android.js'} />
-            <Label text={'Presiona Cmd+R para recargar,\nCmd+D o agita para menú de desarrollo' } />
+            <Label text={'Presiona Cmd+R para recargar,\nCmd+D o agita para menú de desarrollo'} />
+            <Contador />
          </View>
       );
    }

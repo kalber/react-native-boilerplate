@@ -1,8 +1,11 @@
-exports.changeHomeTexts = (title, description, commandDescription) => {
+exports.counterUp = () => {
     return {
-        type: 'CHANGE_HOME_TEXT',
-        title: title,
-        description: description,
-        commandDescription: commandDescription
+        type: 'COUNTER_UP'
+    }
+};
+
+exports.counterDown = () => {
+    return {
+        type: 'COUNTER_DOWN'
     }
 };
