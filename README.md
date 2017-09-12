@@ -28,4 +28,5 @@ También se debe de modificar el archivo __app.json__
 ~~~
 
 ## Actualizar el proyecto
-Una vez que hayamos cambiado el nombre, tenemos que correr el comando `react-native upgrade` para que nos actualice los nombres de los proyectos de iOS y Android.
+Una vez que hayamos cambiado el nombre, debemos de eliminar las carpetas /android y la carpeta /ios, despues corremos el comando `react-native upgrade` para que nos genere de nuevo las carpetas con el nombre que es.
+Ejecutamos el comando `react-native run-ios` o `react-native run-android`para correr nuestra aplicación.
