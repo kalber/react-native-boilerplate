@@ -22,5 +22,5 @@ name: "<nombre de tu app>"
 ~~~
 
 ## Actualizar el proyecto
-Una vez que hayamos cambiado el nombre, debemos de eliminar el archivo app.json, las carpetas /android y la carpeta /ios, despues corremos el comando `react-native upgrade` para que nos genere de nuevo las carpetas con el nombre que es.
+Una vez que hayamos cambiado el nombre, debemos de correr el comando `react-native upgrade` para que nos genere las carpetas __ios__, __android__ y el archivo __app.json__.
 Ejecutamos el comando `react-native run-ios` o `react-native run-android`para correr nuestra aplicación.
